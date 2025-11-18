@@ -63,9 +63,38 @@
   font-weight: 500;
   font-size: 1.25rem;
   color: #eee;
-  border-bottom: 2px solid white;
+  border-bottom: 1.5px solid white;
   padding-bottom: 8px;
   padding-left: 8px;
   padding-right: 8px;
   letter-spacing: 0.15rem;
+}
+
+/* Utilities */
+.section-container {
+  width: 100%;
+  background-color: #111;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-content {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 1.5px solid #fff;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
 }
