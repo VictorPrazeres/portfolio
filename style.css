@@ -70,7 +70,7 @@
   letter-spacing: 0.15rem;
 }
 
-/* Sections */
+/* About Me */
 .about-me-content {
   display: flex;
   align-items: center;
@@ -86,6 +86,41 @@
 .about-me-content p {
   color: #fff;
   line-height: 2rem;
+}
+
+/* Skills */
+.skills-content {
+  margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-item {
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-content .skill-item:nth-child(2) {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.skill-item span {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.skill-item p {
+  color: #fff;
+  opacity: 75%;
 }
 
 /* Utilities */
