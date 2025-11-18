@@ -70,6 +70,24 @@
   letter-spacing: 0.15rem;
 }
 
+/* Sections */
+.about-me-content {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-me-content img {
+  width: 320px;
+  height: 320px;
+  margin-right: 50px;
+}
+
+.about-me-content p {
+  color: #fff;
+  line-height: 2rem;
+}
+
 /* Utilities */
 .section-container {
   width: 100%;
