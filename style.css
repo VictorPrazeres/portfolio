@@ -5,6 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /* Navbar */
 .navbar-container {
   width: 100%;
@@ -208,6 +213,33 @@
   margin-bottom: 20px;
 }
 
+/* Footer */
+.footer-container {
+  width: 100%;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footer-container .social-item a {
+  margin-right: 25px;
+}
+
+.footer-container .social-item ion-icon {
+  margin-right: 25px;
+}
+
+.footer-container .social-item a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+ion-icon {
+  color: #fff;
+  font-size: 32px;
+}
+
 /* Utilities */
 .section-container {
   width: 100%;
@@ -254,7 +286,7 @@
   border: none;
   padding: 20px;
   border-radius: 10px;
-  background-color: #111;
+  background-color: #000;
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
